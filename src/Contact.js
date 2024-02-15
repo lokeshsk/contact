@@ -22,7 +22,7 @@ const Contact = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('https://script.google.com/macros/s/AKfycbwq5ws98W4pwiNc9OHdW91XOJL-mhWYVWaA-jTHnt04qvQ-MCRLqXGi4pjXgFUQEwc/exec', {
+            const response = await fetch('https://script.google.com/macros/s/AKfycbyJrQQintJXoDD_YJy7f264LTjimOLLawkhU4IoriW1lv3SAXK6xIqqLZOcsF8YshQ/exec', {
                 method: 'POST',
                 body: JSON.stringify(formData),
                 headers: {
